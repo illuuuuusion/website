@@ -1,0 +1,62 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+.header-tab {
+    background-color: rgba(255, 0, 0, 0.3);
+    height: 7vh;
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
+    border-radius: 1vh;
+}
+.menu-tab {
+    padding: 1vh;
+}
+.menu-content {
+}
+.menu-button {
+}
+.main-tab {
+    background-color: blue;
+    height: 93vh;
+}
+.picture-tab {
+    height: 70%;
+}
+.title-tab {
+    background-color: white;
+    height: 30%;
+    width: 70%;
+    margin-left: 15%;
+}
+.title-text {
+}
+.title-scroll-left {
+    background-color: gray;
+}
+.title-scroll-right {
+    background-color: gray;
+}
+.summary-tab {
+    height: 100vh;
+    background: yellow;
+}
+.summary-aboutme {
+    height: 33.3333%;
+    background: orange;
+}
+.summary-projects {
+    height: 33.3333%;
+    background: red;
+}
+.summary-friends-cont {
+    height: 33.3333%;
+    background: black;
+}
+.footer-tab {
+    background: green;
+}
+.footer-content {
+    height: 20vh;
+}
