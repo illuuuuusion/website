@@ -2,42 +2,56 @@ html,
 body {
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 .header-tab {
-    background-color: rgba(255, 0, 0, 0.3);
-    height: 7vh;
-    margin-top: 0.1vh;
-    margin-bottom: 0.1vh;
+    height: 10vh;
     border-radius: 1vh;
+    margin-top: 0.5vh;
+    background-color: white;
 }
 
 .menu-tab {
-    padding: 1vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+    box-sizing: border-box;
 }
 
-.menu-content {}
-
-.menu-button {}
+.button {
+    width: auto;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 2%;
+    border-radius: 1em;
+}
 
 .main-tab {
-    height: 93vh;
+    height: 90vh;
+    margin-top: 0.5vh;
+    background: white;
 }
 
 .picture-tab {
     padding: 2.5%;
     height: 95%;
     width: 95%;
-    background-color: aqua;
 }
 
 
 .title-tab {
-    background-color: rgba(255, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 30%;
     width: 100%;
-    margin-top: 72.5%;
-    border-radius: 3em;
+    left: 50%;
+    top: 85%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    border-radius: 2em;
 
 }
 
@@ -47,92 +61,125 @@ body {
     text-align: center;
 }
 
-.title-scroll-left {
-    background-color: gray;
+.title-scroll-left {}
+
+.title-scroll-right {}
+
+.picture {
+    height: 90%;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.2);
+    left: 50%;
+    top: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    border-radius: 2em;
 }
 
-.title-scroll-right {
-    background-color: gray;
+.text {
+    height: 90%;
+    width: 94%;
+    background: rgba(0, 0, 0, 0.2);
+    left: 50%;
+    top: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    border-radius: 2em;
 }
 
 .summary-tab {
     height: 100vh;
-    background: yellow;
+    background: white;
 }
 
 .summary-aboutme {
     height: 33.3333%;
-    background: orange;
+
+    margin-top: 0.5vh;
 }
 
 .picture-aboutme {
     width: 40%;
     float: left;
     height: 100%;
-    background: rgba(21, 0, 255, 0.3);
 }
 
 .text-aboutme {
     width: 60%;
     float: right;
     height: 100%;
-    background: rgba(0, 255, 68, 0.3);
 }
 
 .summary-projects {
     height: 33.3333%;
-    background: red;
+    margin-top: 0.5vh;
 }
 
 .picture-projects {
     width: 40%;
     height: 100%;
     float: right;
-    background-color: antiquewhite;
 }
 
 .text-projects {
     width: 60%;
     float: left;
     height: 100%;
-    background-color: aqua;
 }
 
 .summary-friends-cont {
     height: 33.3333%;
-    background: black;
+    margin-top: 0.5vh;
 }
 
 .picture-friends-cont {
     width: 40%;
     height: 100%;
-    background-color: black;
     float: left;
 }
 
 .text-friends-cont {
     width: 60%;
     height: 100%;
-    background-color: blueviolet;
     float: right;
 }
 
 .footer-tab {
-    background: green;
     height: 20vh;
+    margin-top: 0.5vh;
+    background: white;
+}
+
+.footer-content {
+    height: 100%;
+
+
 }
 
 .footer-wrap {
     height: 80%;
     width: 80%;
-    background: rgba(0, 0, 0, 0.2);
     left: 50%;
     top: 50%;
     position: relative;
     transform: translate(-50%, -50%);
-    border-radius: 10em;
+    border-radius: 2em;
 }
 
-.text-footer {}
+.text-footer {
+    height: 100%;
+    width: 60%;
+    float: left;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 2em;
+}
 
-.picture-footer {}
+.picture-footer {
+    height: 100%;
+    width: 30%;
+    float: right;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 2em;
+    padding: 2%;
+    box-sizing: border-box;
+}
